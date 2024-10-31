@@ -55,7 +55,7 @@ const PageVisibilityDemo: React.FC = () => {
         
         {isVisible && timeHidden > 0 && (
           <p style={{ fontSize: '0.875rem', color: '#666', marginTop: '1rem' }}>
-            ⏱️ Vous avez été absent pendant {timeHidden} secondes
+            ⏱️ Vous avez été absent pendant <span style={{ fontWeight: 'bold', color:'#22c55e' }}>{timeHidden}</span>  secondes
           </p>
         )}
         
